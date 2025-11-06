@@ -61,6 +61,8 @@ dependencies {
     implementation("com.squareup.moshi:moshi-kotlin:1.15.0")
 
     //coil
+    implementation("io.coil-kt:coil-compose:2.2.2")
+    implementation(libs.androidx.room.ktx)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

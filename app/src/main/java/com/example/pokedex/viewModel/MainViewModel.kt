@@ -6,7 +6,6 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.pokedex.domain.data.Repository
-import com.example.pokedex.domain.models.Data
 import com.example.pokedex.domain.models.Pokemon
 import kotlinx.coroutines.launch
 
