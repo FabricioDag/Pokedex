@@ -7,10 +7,11 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.pokedex.domain.data.Repository
 import com.example.pokedex.domain.models.Pokemon
+import com.example.pokedex.gateway.PokedexApiRepository
 import kotlinx.coroutines.launch
 
 class MainViewModel: ViewModel() {
-    private val repository = Repository()
+    private val repository = PokedexApiRepository()
     var state by mutableStateOf(ScreenState())
     init{
         viewModelScope.launch{

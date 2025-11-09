@@ -14,3 +14,4 @@ data class TypePokemon(
     val name: String,
     val url: String
 )
+//TODO: Use the same pokemon data class

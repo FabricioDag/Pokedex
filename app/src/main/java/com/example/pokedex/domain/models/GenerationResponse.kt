@@ -15,3 +15,4 @@ data class PokemonSpecies(
     val name: String,
     val url: String
 )
+//TODO: Use the same Pokemon dataclass
